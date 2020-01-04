@@ -1,6 +1,5 @@
 import tkinter as tk
 import pyautogui
-import time
 import atomcheats
 from PIL import ImageTk, Image
 import os
