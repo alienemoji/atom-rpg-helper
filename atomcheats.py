@@ -1,5 +1,6 @@
-import pyautogui
+#!/usr/bin/env python3
 
+import pyautogui
 
 def hero():
     atomWindow = pyautogui.getWindow("Atom")
@@ -40,6 +41,7 @@ def jetvirus():
     pyautogui.typewrite('AddItem JetVirus')
     pyautogui.press('enter')
     pyautogui.hotkey('num0', 'multiply')
+    print('added strange serum')
 
 def cureMe():
     atomWindow = pyautogui.getWindow("Atom")
