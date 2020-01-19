@@ -1,16 +1,17 @@
+#!/usr/bin/env python3
+
 import tkinter as tk
 import pyautogui
 import atomcheats
 from PIL import ImageTk, Image
 import os
 
-
 root = tk.Tk()
 root.resizable(False, False)
 root.grid_columnconfigure(0, weight=1, uniform=1)
-root.title('Atom RPG Trainer')
+root.title('Trainer by deathmetal.me')
 
-img = ImageTk.PhotoImage(Image.open('ScreenSelector.png'))
+img = ImageTk.PhotoImage(Image.open('1.png'))
 
 frame = tk.Frame(root)
 frame.grid()
@@ -91,7 +92,7 @@ nadesbtn.grid(column=0, sticky='ew')
 #                   text='Close trainer', 
 #                   fg='red',
 #                   command=quit)
-#quitbutton.grid(row=15, sticky='ew')
+#quitbutton.grid(column=0, sticky='ew')
 
 atomlogo = tk.Label(frame, image = img)
 atomlogo.grid(row=0, column=0, sticky='ew')
